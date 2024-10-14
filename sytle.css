@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    background-color: #050505;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+.flex i{
+    justify-content: flex-end;
+    margin: 0px 20px;
+   
+}
+.fa-telegram {
+    font-family: monospace;
+    font-size: 18px;
+}
+.fa-square-phone-flip{
+    font-size: 18px;
+    font-family: monospace;
+}
