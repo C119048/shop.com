@@ -26,3 +26,47 @@
     font-size: 18px;
     font-family: monospace;
 }
+/* this navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+.navbar ul {
+    display: flex;
+    margin: 0px 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #363636;
+    font-size: 18px;
+    font-weight: bold; 
+}
+a:hover{
+    border-left: 3px solid #ec0808;
+}
+input{
+    padding: 10px 10rem;
+    border-radius: 20px;
+   /* background-color: #e2e1e121; */
+   border-color: #363636;
+   margin-left: 50px;
+   
+}
+.fa-cart-shopping{
+    font-size: 18px;
+    margin: 0px 10px;
+}
+.fa-user{
+    font-size: 18px;
+    margin: 0px 10px;
+}
+.navbar h1{
+    font-size: 25px;
+    
+}
